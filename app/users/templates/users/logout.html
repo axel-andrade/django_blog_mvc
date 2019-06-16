@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <h2>Você foi desconectado</h2>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            <a class="ml-2" href="{% url 'login' %}">Acessar novamente</a>
+        </small>
+    </div>
+    <br>
+    <br>
+    <br>
+{% endblock content %}
